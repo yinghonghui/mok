@@ -23,10 +23,3 @@ server:
     compression:
       enabled: true
       mime-types: application/json,application/javascript,application/xhtml+xml,text/html,text/xml,text/plain,text/css
-
-# 设置配置中心的label  示例
-spring.cloud.config.label: discover
-
-# base config
-discover:
-  privilegeAppId: 57
